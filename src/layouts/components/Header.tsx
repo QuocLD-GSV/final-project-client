@@ -7,9 +7,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import logo from "../../assets/img/logo.png";
 import { useSession, signOut } from "next-auth/react";
@@ -151,7 +149,7 @@ export default function Example() {
               </button>
             </Link>
 
-            <Link href="/" className="w-[20%] h-full">
+            <Link href="/campain" className="w-[20%] h-full">
               <button
                 type="button"
                 className="inline-flex w-full h-full justify-center items-center px-4 py-2 text-sm font-medium text-gray-400 bold rounded-lg hover:bg-gray-100 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 bg-opacity-50"
@@ -167,7 +165,7 @@ export default function Example() {
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
                   />
                 </svg>
               </button>
@@ -299,8 +297,7 @@ export default function Example() {
                     </button>
                   )}
                 </div>
-                <div className="py-6">
-                </div>
+                <div className="py-6"></div>
               </div>
             </div>
           </Dialog.Panel>
